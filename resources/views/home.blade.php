@@ -80,8 +80,13 @@
                         <input name="icon" type="file" class="form-control border-0">
                         <br>
                         
-                        <input type="submit" value="UPLOAD IMG">
+                        <input type="submit" class="btn btn-primary" value="UPLOAD IMG">
+                        <a href="{{ route('clear-icon') }}" class="btn btn-danger">DELETE ICON</a>
                     </form>
+
+                
+
+                    
 
                 </div>
 

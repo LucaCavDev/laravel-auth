@@ -28,6 +28,9 @@ Route::post('/send/empty/mail', 'HomeController@sendEmptyMail')->name('send-empt
 
 Route::post('/update/user/icon', 'HomeController@updateUserIcon')->name('update-icon');
 
+Route::get('/clear/user/icon', 'HomeController@clearUserIcon')->name('clear-icon');
+
+
 
 
 
