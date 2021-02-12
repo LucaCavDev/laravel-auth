@@ -88,6 +88,28 @@
                 
             </div>
 
+            @if (Auth::user() -> icon)
+
+                <br>
+
+                <div class="card">
+                    <div class="card-header">ICON</div>
+
+                    <div class="card-body">
+
+                        <h1>ICONAAAAAAAA</h1>
+
+                        <img src="{{ asset('storage/icon/' . Auth::user() -> icon) }}" width="200px">
+
+                    </div>
+
+                    
+                </div>
+
+            @endif
+
+
+
 
         </div>
     </div>
